@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": false,
+    "baseUrl": "./",
+    "paths": {
+      "src": ["./src/*"],
+      "config": ["./src/config/*"],
+      "constants": ["./src/constants/*"],
+      "routers": ["./src/routers/*"],
+      "modules": ["./src/modules/*"],
+      "utils/*": ["./src/utils/*"]
+    }
+  },
+  "include": ["./src/**/*"]
+}
